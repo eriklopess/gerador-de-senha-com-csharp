@@ -1,0 +1,50 @@
+﻿# Arquivos e diretórios específicos do .NET
+
+## Diretórios
+bin/
+obj/
+TestResults/
+
+## Arquivos
+*.exe
+*.dll
+*.pdb
+*.dll.config
+*.appsettings.json
+
+# Diretórios gerados pelas ferramentas de compilação
+_/Generated/
+
+# Arquivos específicos do Visual Studio
+.vs/
+*.sln.docstates
+
+# Arquivos de registro de teste
+TestResults/
+
+# Arquivos de publicação
+**/wwwroot/
+
+# Dependências gerenciadas pelo NuGet
+**/packages/
+
+# Ferramentas específicas do MSBuild
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Cache de análise do Roslyn
+*/.localhistory/
+
+# Arquivos de análise e métricas
+**/*.licx
+*.licx
+*.bak
+*.bak.*
+*.tmp
+*.Cache
+*.csproj.user
+*.userprefs
+*.dbmdl
+*.sqlproj.user
+*.VC.db
